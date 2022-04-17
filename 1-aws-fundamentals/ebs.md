@@ -94,6 +94,10 @@ EBS Snapshots
     * Backups must be operated by the user
 * Overall, EBS-backed instances should fit most applications workloads
 
+#### EBS Multi-Attach
+
+* Using EBS Multi-Attach, you can attach the same EBS volume to multiple EC2 instances in the same AZ. Each EC2 instance has full read/write permissions.
+
 #### EBS Summary
 
 * EBS can be attached to only one instance at a time
