@@ -63,6 +63,7 @@ RDS Encryption
 * SSL certificates to encrypt data to RDS in flight
 * To enforce SSL:
     * PostgreSQL: rds.force_ssl=1 in the AWS RDS Console (parameter groups)
+    * MySQL: Execute a `REQUIRE SSL` SQL statement to all DB users
 * TO connect using SSL:
     * Provide the SSL Trust certificate (can be downloaded from AWS)
     * Provide SSL options when connection to the database
