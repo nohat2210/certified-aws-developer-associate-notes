@@ -5,7 +5,7 @@ SNS is a fully managed messaging service for both application to application (A2
 - The event producer only sends a message to one SNS topic at a time
 - Many event receivers can be created to listen to an SNS topic notification
 - Limits:
-    - 10,000,000 subscriptions per topic
+    - Up to 12,500,000 subscriptions per topic
     - 100,000 topics
 - Subscriber types:
     - SQS
