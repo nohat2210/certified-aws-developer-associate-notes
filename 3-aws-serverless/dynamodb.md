@@ -187,6 +187,7 @@
 
 ### Global Secondary Index (GSI)
 
+- Alternative Primary Key (HASH or HASH+RANGE) from base table
 - Used to speed up queries on non-key attributes
 - GSI = partition key + optional sort key
 - This index can be seen as a new "table"
