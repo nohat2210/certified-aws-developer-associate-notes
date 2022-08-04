@@ -29,7 +29,8 @@ SNS is a fully managed messaging service for both application to application (A2
     - Public to the topic
 
 - Publish directly from an application
-    - Create an endpoint in your application
+    - Create a platform application
+    - Create a platform endpoint
     - Publish to the platform endpoint
     - This works with:
         - Google GCM
